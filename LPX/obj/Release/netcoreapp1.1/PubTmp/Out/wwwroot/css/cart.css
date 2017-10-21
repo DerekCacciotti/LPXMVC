@@ -1,0 +1,23 @@
+﻿#cartnote {
+    font-size: 11px;
+}
+
+
+#formarea {
+    display: table;
+    margin: 0 auto;
+}
+
+    #formarea input {
+        width: 500px;
+        height: 50px;
+    }
+
+#closebutton
+{
+    width: 15px;
+
+}
+
+
+

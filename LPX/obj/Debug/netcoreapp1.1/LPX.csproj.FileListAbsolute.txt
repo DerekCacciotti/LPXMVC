@@ -1,0 +1,11 @@
+/Users/derekcacciotti/Projects/LPXMVC/LPX/bin/Debug/netcoreapp1.1/LPX.deps.json
+/Users/derekcacciotti/Projects/LPXMVC/LPX/bin/Debug/netcoreapp1.1/LPX.runtimeconfig.json
+/Users/derekcacciotti/Projects/LPXMVC/LPX/bin/Debug/netcoreapp1.1/LPX.runtimeconfig.dev.json
+/Users/derekcacciotti/Projects/LPXMVC/LPX/bin/Debug/netcoreapp1.1/LPX.dll
+/Users/derekcacciotti/Projects/LPXMVC/LPX/bin/Debug/netcoreapp1.1/LPX.pdb
+/Users/derekcacciotti/Projects/LPXMVC/LPX/obj/Debug/netcoreapp1.1/LPX.csprojResolveAssemblyReference.cache
+/Users/derekcacciotti/Projects/LPXMVC/LPX/obj/Debug/netcoreapp1.1/LPX.csproj.CoreCompileInputs.cache
+/Users/derekcacciotti/Projects/LPXMVC/LPX/obj/Debug/netcoreapp1.1/LPX.AssemblyInfoInputs.cache
+/Users/derekcacciotti/Projects/LPXMVC/LPX/obj/Debug/netcoreapp1.1/LPX.AssemblyInfo.cs
+/Users/derekcacciotti/Projects/LPXMVC/LPX/obj/Debug/netcoreapp1.1/LPX.dll
+/Users/derekcacciotti/Projects/LPXMVC/LPX/obj/Debug/netcoreapp1.1/LPX.pdb

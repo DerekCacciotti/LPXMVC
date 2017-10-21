@@ -1,0 +1,76 @@
+﻿@using X.PagedList.Mvc.Core; 
+@using X.PagedList; 
+@{
+    ViewData["Title"] = "Search Page";
+
+
+
+
+}
+
+<script src="~/js/search.js"></script>
+<form asp-action="SearchbyItem" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by Brand and Product Name <input type="text" name="SearchString"/>
+            <input type="submit" value="Search" class="btn btn-default" /> |
+            <a asp-action="Search">Back to Full List</a>
+        </p>
+    </div>
+</form>
+
+<div id="tablediv">
+
+
+<table id="itemstable" class="table table-hover">  
+        <thead>  
+            <th>Product Name</th>  
+            <th>Brand</th>  
+            <th>PackSize</th>  
+
+        </thead>  
+
+
+    @foreach (var item in ViewBag.OnePageOfProducts)  
+{  
+        
+        <tr onclick="test()">  
+
+ <td id="id" style="display:none;">  
+@item.ID  
+</td>  
+            <td>  
+@item.ProductName  
+</td>  
+            <td>  
+@item.Brand  
+</td>  
+            <td>  
+@item.PackSize  
+</td>  
+    </tr>  
+  
+}  
+  
+    </table>
+
+
+
+
+</div>
+
+    @if(ViewBag.isSearching == true)
+    {
+    }
+    else
+    {
+    @Html.PagedListPager((IPagedList)ViewBag.OnePageOfProducts, page => Url.Action("Search", new { page }) )
+    }
+	
+
+    
+   
+
+
+
+

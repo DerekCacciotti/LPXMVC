@@ -1,0 +1,89 @@
+﻿@model LPX.Models.FoodModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+ <link href="~/css/details.css" rel="stylesheet">
+ <script src="~/js/details.js"></script>
+<div class="container-fluid">
+    <div class="content-wrapper">
+        <div class="item-container">
+            <div class="container">
+
+
+                <div class="col-md-7">
+                    <div class="product-title" id="itemname">@Model.ProductName</div>
+                    <div class="product-desc" id="brandlabel">@Model.Brand</div>
+					<div class="product-title" id="productnum" style="display:none;">@Model.ID</div>
+                    <div class="product-desc" id="packsize" style="display:none;">@Model.PackSize</div>
+					
+          <br />
+
+
+</div>
+
+  </ul>
+</div>
+
+<br />
+
+
+
+
+          <br />
+          <br />
+          <div class="btn-group back">
+                        <input type="button" class="btn btn-warning" value="Back to Search"  name="backtosearch" id="backtosearch"  onclick="BacktoSearch()">
+                    </div>
+                    <div class="btn-group cart">
+                        <input type="button" class="btn btn-success" value="Add to order"  name="addtocart"   onclick="addtoCart()">
+                    </div>
+                    <div class="btn-group wishlist">
+
+            <div class="btn-group wishlist">
+              
+                    </div>
+
+          <br />
+          <br />
+          <div>
+          </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="col-md-12 product-info">
+                    <ul id="myTab" class="nav nav-tabs nav_tabs">
+
+
+                        <li><a href="#service-one" data-toggle="tab">PRODUCT INFO</a></li>
+                        <li><a href="#service-two" data-toggle="tab">PRICES</a></li>
+
+                    </ul>
+                <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane fade in active" id="service-one">
+
+                            <section class="container product-info">
+
+                            </section>
+
+                        </div>
+                    <div class="tab-pane fade" id="service-two">
+
+                        <section class="container">
+
+                        </section>
+
+                    </div>
+                    <div class="tab-pane fade" id="service-three">
+            <section class="container product-info">
+
+            </section>
+
+
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
